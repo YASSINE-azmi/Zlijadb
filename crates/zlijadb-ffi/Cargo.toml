@@ -1,0 +1,16 @@
+[package]
+name = "zlijadb-ffi"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+description = "Foreign function interface bindings for zlijadb (Wasm/JS later)"
+publish = false
+
+[dependencies]
+zlijadb-core.workspace = true
+thiserror.workspace = true
+
+# فعّل لاحقًا في المرحلة 5
+# wasm-bindgen = "0.2"

@@ -1,0 +1,18 @@
+[package]
+name = "zlijadb-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+description = "Command-line interface for zlijadb"
+publish = false
+
+[[bin]]
+name = "zlijadb"
+path = "src/main.rs"
+
+[dependencies]
+zlijadb-core.workspace = true
+clap.workspace = true
+serde.workspace = true

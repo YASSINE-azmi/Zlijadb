@@ -1,0 +1,15 @@
+[package]
+name = "zlijadb-storage"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+description = "Storage backend abstraction for zlijadb (redb)"
+publish = false
+
+[dependencies]
+ciborium.workspace = true
+redb.workspace = true
+serde = { workspace = true, features = ["derive"] }
+thiserror.workspace = true
